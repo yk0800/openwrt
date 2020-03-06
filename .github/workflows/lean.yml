@@ -5,7 +5,7 @@ on:
 #   - cron: 0 20 * * *
   push:
     branches: 
-      - lean
+      - master
   watch:
     types: [started]
 
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@lean
+    - uses: actions/checkout@master
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
