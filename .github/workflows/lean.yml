@@ -1,5 +1,5 @@
 # https://github.com/P3TERX/Actions-OpenWrt
-name: X64-lean+password
+name: X64-lean+password版
 on:
 # schedule:
 #   - cron: 0 20 * * *
